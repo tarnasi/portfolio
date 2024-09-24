@@ -5,12 +5,24 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --mainColor: #264e70;
+  --secondColor: #679186;
+  --thirdColor: #f9b4ab;
+  --fourthColor: #bbd4ce;
+  --fifthColor: #fdebd3;
+  --txt: #e3e3e3  ;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --mainColor: #264e70;
+    --secondColor: #679186;
+    --thirdColor: #f9b4ab;
+    --fourthColor: #bbd4ce;
+    --fifthColor: #fdebd3;
+    --txt: #e3e3e3  ;
   }
 }
 
@@ -18,6 +30,7 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0 !important;
 }
 
 @layer utilities {
