@@ -1,4 +1,4 @@
-import { CodeOutlined, GithubOutlined, LaptopOutlined, ProjectOutlined } from '@ant-design/icons';
+import { CodeOutlined, GithubOutlined, ProjectOutlined } from '@ant-design/icons';
 import Link from 'next/link';
 
 export default async function Profile() {
