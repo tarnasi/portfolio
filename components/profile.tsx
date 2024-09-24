@@ -5,10 +5,10 @@ import Link from 'next/link';
 export default async function Profile() {
     return (
         <div id="profile" className="text-txt text-justify bg-mainColor w-full h-1/2 m-10 rounded shadow-md p-6 shadow-secondColor">
-            <h2 className="text-7xl">Shahriyar Tarnasi</h2>
-            <p className='mt-10'>I'm a <b>Senior Full Stack Programmer</b> with over 6 years of experience crafting scalable, high-performance web applications. Passionate about coding, I thrive on solving complex problems and continuously learning new technologies.</p>
-            <p className='mt-2'>When I'm not coding, you’ll find me immersed in <b>Anime</b>, <b>Gaming</b>, or <b>exploring the world</b> through <b>Travel</b>. I'm driven by creativity and the desire to build systems that make a real impact.</p>
-            <p className='mt-2'>I'm a Developer, Gamer and a anime lover :)</p>
+            <h2 className="text-5xl">Shahriyar Tarnasi</h2>
+            <p className='mt-10 text-sm'>I'm a <b>Senior Full Stack Programmer</b> with over 6 years of experience crafting scalable, high-performance web applications. Passionate about coding, I thrive on solving complex problems and continuously learning new technologies.</p>
+            <p className='mt-2 text-sm'>When I'm not coding, you’ll find me immersed in <b>Anime</b>, <b>Gaming</b>, or <b>exploring the world</b> through <b>Travel</b>. I'm driven by creativity and the desire to build systems that make a real impact.</p>
+            <p className='mt-2 text-sm'>I'm a Developer, Gamer and a anime lover :)</p>
 
             <div className="flex justify-around mt-10">
                 <Link href="/projects" className="w-full sm:w-1/2 lg:w-1/4">
