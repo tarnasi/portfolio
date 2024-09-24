@@ -11,7 +11,7 @@ export default async function Profile() {
             <p className='mt-2 text-sm'>I'm a Developer, Gamer and a anime lover :)</p>
 
             <div className="flex justify-around mt-10">
-                <Link href="/projects" className="w-full sm:w-1/2 lg:w-1/4">
+                <Link href="https://github.com/tarnasi" className="w-full sm:w-1/2 lg:w-1/4">
                     <div className="p-6 bg-secondColor shadow-lg hover:shadow-xl rounded-lg transition-shadow duration-300 ease-in-out text-center">
                         <CodeOutlined className="text-4xl mb-4 text-mainColor" />
                         <h3 className="text-xl font-semibold">Projects</h3>
@@ -27,7 +27,7 @@ export default async function Profile() {
                     </div>
                 </Link>
 
-                <Link href="/experience" className="w-full sm:w-1/2 lg:w-1/4">
+                <Link href="https://github.com/tarnasi" className="w-full sm:w-1/2 lg:w-1/4">
                     <div className="p-6 bg-secondColor shadow-lg hover:shadow-xl rounded-lg transition-shadow duration-300 ease-in-out text-center">
                         <ProjectOutlined className="text-4xl mb-4 text-thirdColor" />
                         <h3 className="text-xl font-semibold">Experience</h3>
